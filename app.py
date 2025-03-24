@@ -273,7 +273,7 @@ def load_allocation_by_id(allocation_id):
     return None
 
 # API Configs for Gemini
-GEMINI_API_KEY = "AIzaSyC-s4JiK3ZOJU7hj9zUq9lc9XTHfiV7B8I"
+GEMINI_API_KEY = "AIzaSyB2XZ3YVeaP-KyU6uG5fp5hGPSrXFqYXOE"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 @lru_cache(maxsize=32)
